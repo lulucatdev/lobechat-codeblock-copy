@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "LobeChat Code Block Bottom Copy Button",
+  "version": "1.0",
+  "description": "Adds a copy button to code blocks on LobeChat. Change the 'host_permissions' and 'content_scripts/matches' to your LobeChat host domain, and load this folder to Chrome extension.",
+  "permissions": [
+    "activeTab"
+  ],
+  "host_permissions": [
+    "https://lobechat.com/*" 
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://lobechat.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ]
+}

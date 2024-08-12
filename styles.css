@@ -1,0 +1,29 @@
+.code-block-bottom-bar {
+  display: flex !important;
+  justify-content: flex-end !important;
+  padding: 5px !important;
+  background-color: #f0f0f0 !important;
+  border-top: 1px solid #ddd !important;
+  margin-top: 5px !important;
+  position: sticky !important;
+  bottom: 0 !important;
+  z-index: 1000 !important;
+}
+
+.code-block-copy-button {
+  background-color: #4CAF50 !important;
+  border: none !important;
+  color: white !important;
+  padding: 5px 10px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 12px !important;
+  margin: 2px 2px !important;
+  cursor: pointer !important;
+  border-radius: 3px !important;
+}
+
+.code-block-copy-button:hover {
+  background-color: #45a049 !important;
+}
